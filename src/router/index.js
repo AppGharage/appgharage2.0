@@ -1,15 +1,46 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import HelloWorld from '@/components/HelloWorld'
+import Index from '@/components/Index'
+import Contact from '@/components/Contact'
+import Design from '@/components/Design'
+import Construction from '@/components/Construction'
+import Prototyping from '@/components/Prototyping'
+import Maintenance from '@/components/Maintenance'
 
 Vue.use(Router)
 
 export default new Router({
+	mode: 'history',
   routes: [
     {
       path: '/',
-      name: 'HelloWorld',
-      component: HelloWorld
-    }
+      name: 'index',
+      component: Index
+    },
+    {
+      path: '/contact',
+      name: 'contact',
+      component: Contact
+    },
+    {
+      path: '/design',
+      name: 'design',
+      component: Design
+    },
+    {
+      path: '/construction',
+      name: 'construction',
+      component: Construction
+    },
+    {
+      path: '/prototyping',
+      name: 'prototyping',
+      component: Prototyping
+    },
+    {
+      path: '/maintenance',
+      name: 'maintenance',
+      component: Maintenance
+    },
   ]
 })
