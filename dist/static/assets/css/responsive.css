@@ -1,0 +1,71 @@
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+/* Styles */
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 321px) {
+/* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 767px) {
+/* Styles */
+.security-icon{
+	display: none;
+}
+.help-icon{
+	width: 150px;
+}
+.below{
+	padding-top: 50px;
+}
+.on-mobile{
+	display: block !important;
+}
+.on-desktop{
+	display: none !important;
+}
+.padding-top{
+	padding-top: 50px;
+}
+.main-nav{
+	display: none;
+}
+.mobile-nav{
+	display: block !important;
+}
+.mobile-navbar{
+	padding-top: 0px !important;
+	padding-bottom: 0px !important;
+	height: 60px;
+}
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+/* Styles */
+.on-mobile{
+	display: none !important;
+}
+.on-desktop{
+	display: block !important;
+}
+}
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+/* Styles */
+.on-mobile{
+	display: none !important;
+}
+.on-desktop{
+	display: block !important;
+}
+}

@@ -1,0 +1,203 @@
+* {
+    font-family: 'Comfortaa', cursive !important;
+}
+html, body {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+}
+
+body {
+    background-image: url('../images/bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {}
+
+a {}
+
+span {}
+
+button {}
+.logo{
+    width: 150px !important;
+}
+
+.paddingtop {
+    padding-top: 20px;
+}
+
+.signin {
+    background-color: transparent !important;
+    color: #4596EA !important;
+    outline: 1px solid #4596EA !important;
+}
+.contact{
+    background-color: transparent !important;
+    color: #4596EA !important;
+    outline: solid 1px;
+}
+
+.white-outline {
+    background-color: transparent !important;
+    color: #fff !important;
+    outline: solid 1px #fff;
+}
+
+.center-text {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.title {
+    text-align: center;
+}
+
+.title h3 {
+    font-weight: 800;
+}
+
+.leading-text {
+    font-weight: 800;
+}
+
+.grey-section {
+    background-color: #F2F2F2;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.uk-input {
+    border-radius: 5px;
+}
+
+.card {
+    text-align: center;
+}
+
+.card-image {
+    padding-left: 20%;
+    padding-right: 20%;
+    height: 70px;
+    width: 70px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.card-title {
+    font-size: 18px;
+}
+
+.card-body-text {
+    font-size: 12px;
+    color: #5D5D5D;
+}
+
+.specialist-card-title {
+    font-size: 16px;
+    color: #4596EA;
+}
+
+.specialist-card-body-text {
+    font-size: 14px;
+    color: #5D5D5D;
+}
+
+.specialist-card-body-text span {
+    display: block;
+}
+
+.text-right-align {
+    text-align: right;
+}
+
+.footer-section {
+    background-color: #4596EA;
+    padding-top: 40px;
+}
+
+.footer-section h3 {
+    font-size: 24px;
+    color: #fff;
+}
+
+.footer-section p {
+    font-size: 14px;
+    color: #fff;
+}
+
+.uk-active {
+    font-weight: 800 !important;
+    font-size: 18px;
+}
+
+.why-title {
+    font-size: 14px;
+}
+
+.why li {
+    font-size: 12px;
+    padding-top: 10px;
+}
+
+.mobile-nav {
+    color: #000 !important;
+}
+
+.mobile ul {
+    display: block;
+}
+
+.mobile ul li {
+    display: block;
+}
+.uk-nav-header{
+    color: #c4c4c4 !important;
+}
+.dd{
+    padding-bottom: 100px !important;
+}
+
+  * {
+            /*outline: 1px solid green !important;*/
+        }
+        
+        body {
+            background-image: none !important;
+        }
+        
+        .uk-navbar-nav li a {
+            color: #000 !important;
+            font-family: 'Comfortaa', cursive;
+        }
+
+        
+        .team-details {
+            display: none;
+            width: 265px;
+            height: 280px;
+            z-index: 3;
+            color: #fff;
+        }
+        .team-details, .team-details h5 {
+            color: #fff !important;
+        }
+
+        .sub-team:hover {
+            filter: grayscale(1);
+        }
+
+        .team-details {
+            color: white !important;
+        }
+
+        .sub-team:hover .team-details {
+            display: block;
+        }  

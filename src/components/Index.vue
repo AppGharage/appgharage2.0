@@ -170,45 +170,6 @@
     </div>
 
 
-    <div class="grey-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12 col-md-12 col-lg-12">
-                    <div class="title">
-                        <h3>
-                            Ready to give it a hit?
-                        </h3>
-                    </div>
-                </div>
-                <div class="col-sm-12 col-md-12 col-lg-12">
-                    <div class="row">
-                        <div class="col-sm-12 col-md-6 col-lg-6 d-flex on-desktop" style="display: none;">
-                            <div class="d-flex align-items-end flex-column">
-                                <div class="p-2">
-                                    <p class="text-right-align">Do you want to rent/hire developers or designers to complete your next project?</p>
-                                </div>
-                                <div class="p-2">
-                                    <a href="#" class="uk-button uk-button-primary uk-box-shadow-large">Request a call</a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-sm-12 col-md-6 col-lg-6 on-mobile" style="display: none;">
-                            <p>Do you want to rent/hire developers or designers to complete your next project?</p>
-                            <a href="#" class="uk-button uk-button-primary uk-box-shadow-large">Request a call</a>
-                        </div>
-
-                        <div class="col-sm-12 col-md-6 col-lg-6 padding-top">
-                            <p>We have all the expertise you need to produce a fully-fledged, stable product</p>
-                            <a href="#" class="uk-button uk-button-primary uk-box-shadow-large">Let's build for you</a>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
-        </div>
-    </div>
 
 
     <Footer/>
