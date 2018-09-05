@@ -1,43 +1,39 @@
 <template>
-  <div class="design">
+  <div class="pricing">
     <Navigation/>
 
-    <!-- Duplicate this div "section" for any block of design -->
-    <div class="section">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12 col-md-12 col-lg-12">
-                    <div style="margin:50px 0px 100px 0px; text-align: center;">
-                        <h1>
-                            Design
-                        </h1>
-                        <h3>Our unique platform-optimized development model means higher quality, lower costs, and a better experience.</h3>
-                    </div>
-                </div>
-            </div>
+     <div class="container">
+        <div class="row">
+            <div class="col uk-text-center uk-margin-medium-top" style="color:#000; font-size: 50px;">Pricing</div>
+        </div>
+        <div class="row">
+            <div class="col uk-text-center uk-margin-large-bottom" style="font-size: 20px;">Our unique platform-optimized development model means higher quality, lower costs and a better experience</div>
         </div>
     </div>
-    <!-- End of block -->
+    <!--Design section-->
 
-    <div class="grey-section">
+    <!--COLORED SECTTION-->
+    <div class="section" style="background:#F8F8F8; padding-top:58px; padding-bottom:58px ">
         <div class="container">
-            <div class="row">
-                <div class="col-sm-12 col-md-12 col-lg-12">
-                    <div class="design">
-                        <h5 style="color: #19B5FE;">DESIGN</h5>
-                        <div class="mission-heading">
+            <div class=" row ">
+                <div class="col-sm-12 col-md-12 col-lg-12 ">
+                    <div class="design ">
+                        <h5 style="color: #19B5FE; ">OUR PRICING</h5>
+                        <div class="mission-heading ">
                             <h2>
-                                Based on designs we've done
+                                Based on recent project we've built
                             </h2>
-                            <p>See examples of our designs with different prices</p>
+
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <!--COLORED SECTION ENDS HERE-->
 
-    <!--End of design section-->
+
+    <!-- First card start here-->
     <div class="section">
         <div class="container" style="padding-top: 40px; padding-bottom: 40px;">
             <div class="row">
@@ -101,8 +97,7 @@
             </div>
         </div>
     </div>
-
-    <div class="section">
+<div class="section">
         <div class="container" style="margin-bottom:10%; margin-top:5%">
             <div class="row">
                 <div class="col">
@@ -190,10 +185,10 @@
                                     <div class="uk-card-body1" style="max-height:330px; min-height:200px">
                                         <div class="card-content card-state-icon"></div>
                                         <label for="4">
-                                            <div style="max-height:150px;">
+                                            <div style="height:150px;">
                                                 <img src="../assets/images/ios.png" alt="" style="width:80%">
                                             </div>
-                                            <p class="uk-card-title" >iOS</p>
+                                            <p class="uk-card-title">iOS</p>
                                         </label>
                                     </div>
                                 </div>
@@ -201,47 +196,43 @@
                         </div>
                     </div>
 
-                    <div class="row" style="margin-top:7%; margin-bottom:17%">
+                    <div class="row" style="margin-top:7%">
                         <div class="col">
-                            <h3 style="color:#5BA2EC;">SERVICES</h3>
+                            <h3 style="color:rgb(120, 164, 211);">SERVICES</h3>
                             <div class="uk-form-controls" style="color:#000; font-weight: 300; font-size: 18px;">
-                                <label><input class="uk-radio" type="radio" name="services" value="protoype" style="margin:10px"> Prototype Design</label><br>
-                                <label><input class="uk-radio" type="radio" name="services" value="minimum viable product" style="margin:10px"> UI / UX Design</label><br>
+                                <label><input class="uk-radio" type="radio" name="services" value="protoype" style="margin:10px"> Application Support</label><br>
+                                <label><input class="uk-radio" type="radio" name="services" value="protoype" style="margin:10px"> Design Support</label><br>
                             </div>
                         </div>
                     </div>
                 </div>
-
-                <div class="col-sm-12 col-md-6 col-lg-4" style="padding:5px">
-                    <div class="uk-card uk-card-default" style="color:#000;">
+                <div class="col-sm-12 col-md-4 col-lg-4">
+                    <div class="uk-card uk-card-default" style="color:#000">
                         <div class="uk-card-header">
                             <div class="uk-grid-large uk-flex-middle" uk-grid>
-
-                                <div class="uk-width-auto">
-                                    <img class="uk-border-circle" width="40" height="40" src="">
-                                </div>
                                 <div class="uk-width-expand">
                                     <h3 class="uk-card-title uk-margin-remove-bottom">Approximate Budget</h3>
                                 </div>
                             </div>
                         </div>
                         <div class="uk-card-body">
-                            <h4>Design</h4>
+                            <h4>Website</h4>
                             <p>Complete Solutions</p>
-                            <p> <img src="../assets/images/calendar.png" alt="calendar"> 2 weeks</p>
-                            <p><img src="../assets/images/$.png" alt="$ sign"> 3k Ghs +</p>
+                            <p> <img src="../assets/images/calendar.png" alt="calendar"> 4 weeks +</p>
+                            <p><img src="../assets/images/$.png" alt="$ sign"> 5k Ghs+</p>
                         </div>
                         <div class="uk-card-footer">
-                            <p style="font-size:16px; color:#000">Please note that these numbers are not final. They are just an approximation, to give you an understanding about budget ranges.<br><br> <b>Send us more detail and we will do an individual estimation
-                                </b></p>
+                            <p style="font-size:16px; color:#000">Please note that these numbers are not final. They are just an approximation, to give you an understanding about budget ranges.<br><br>
+                                <b>Send us more detail and we will do an individual estimation.</b>
+                            </p>
                             <button class="uk-button " style=" background: #4596EA; color:white; border-radius: 5px;  margin-top: 3%;">SEND</button>
                         </div>
                     </div>
+
                 </div>
             </div>
         </div>
     </div>
-
 
     <Footer/>
   </div>
@@ -252,7 +243,7 @@
   import Footer from '@/components/Footer'
 
 export default {
-  name: 'Design',
+  name: 'Pricing',
   components: {
       Navigation,
       Footer
@@ -274,6 +265,10 @@ body {
         .uk-navbar-nav li a {
             color: #000 !important;
             font-family: 'Comfortaa', cursive;
+        }
+        
+        .uk-checkbox1 {
+            background-color: #19B5FE;
         }
         
         .uk-checkbox {

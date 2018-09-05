@@ -6,6 +6,8 @@ import Design from '@/components/Design'
 import Construction from '@/components/Construction'
 import Prototyping from '@/components/Prototyping'
 import Maintenance from '@/components/Maintenance'
+import Pricing from '@/components/Pricing'
+import About from '@/components/About'
 
 Vue.use(Router)
 
@@ -41,6 +43,16 @@ export default new Router({
       path: '/maintenance',
       name: 'maintenance',
       component: Maintenance
+    },
+    {
+      path: '/pricing',
+      name: 'pricing',
+      component: Pricing
+    },
+    {
+      path: '/about',
+      name: 'about',
+      component: About
     },
   ]
 })
